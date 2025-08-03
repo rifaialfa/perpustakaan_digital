@@ -40,8 +40,12 @@ INSERT INTO `users` (`id`, `username`, `email`, `password`, `role`) VALUES
 (1, 'admin', 'admin@example.com', '$2y$10$hbncYm.SbhFAIwZqRL47j.juYz.PCFxn7zj7oFjbEp63yvOD6qgiG', 'admin'),
 (2, 'user', 'user@example.com', '$2y$10$g5H.nyz9.5BMtMFg4hQXtOwDufZSOR6yiByQrwhjWIQE8rdN18ymu', 'user');
 
-3. copy file zip yang telah didownload pada C:\xampp\htdocs
-4. jalankan cmd lalu targetkan ke "cd C:\xampp\htdocs\perpustakaan_digital" ketik "php spark serve" untuk menjalankan http://localhost:8080
-5. buka browser lalu akses http://localhost:8080/login
-6. login dengan akun yang terdapat pada database tadi
-7. perpustakaan digital sudah bisa digunakan
+
+3. buat directory folder pada C:\xampp\htdocs\ "perpustakaan_digital".
+4. Download CodeIgniter 4 via Composer (Disarankan) Syarat: Composer harus sudah terinstall. Jika belum, unduh dari: https://getcomposer.org/ lalu install.
+5. jalankan cmd lalu targetkan ke "cd C:\xampp\htdocs\perpustakaan_digital" download codeigniter terbaru dengan cara "composer create-project codeigniter4/appstarter perpustakaan_digital"
+6. ketik "php spark serve" untuk menjalankan http://localhost:8080
+7. copy dan replace file zip yang telah didownload pada C:\xampp\htdocs\perpustakaan_digital
+8. buka browser lalu akses http://localhost:8080/login
+9. login dengan akun yang terdapat pada database tadi
+10. perpustakaan digital sudah bisa digunakan
